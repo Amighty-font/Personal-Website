@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Personal website coded using React.js that displays my photography and software developer work. Website design inspired by the editorial style of "https://editorial-freebie-em.webflow.io/".
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
