@@ -9,12 +9,16 @@ const LandingPage = () => {
     return(
         <div>
             <DesignedBy />
-            <div>
-                <h1 className="big-text">Adventures</h1>
-                <h1 className="medium-text">await the</h1>
-                <h1 className="big-text">Daring</h1>
-                <h1 className="medium-text">soul</h1>
+            <div className="green-section">
+                <div className="first-body">
+                    <h1 className="big-text">Adventures</h1>
+                    <h1 className="medium-text">await the</h1>
+                    <h1 className="big-text">Daring</h1>
+                    <h1 className="medium-text">soul</h1>
+                </div>
             </div>
+
+            <div className="tan-section"> HELLO </div>
             {/* <SplashScreen isVisible={visible}/>
             <button onClick={() => setVisible(!visible)}/> */}
         </div>

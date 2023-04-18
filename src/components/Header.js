@@ -3,7 +3,7 @@ import "./Header.css";
 const Header = () => {
 
     return (
-        <nav style={{ backgroundColor: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '20px 50px' }}>
+        <nav className="header">
             <div style={{ textAlign: 'left' }}>
                 <a className="title" href="/">Timothy.</a>
             </div>

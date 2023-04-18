@@ -3,22 +3,34 @@
     border: none;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size:small;
+    font-size: small;
     cursor: pointer;
     text-decoration: none;
-    color:black;
-    font-weight:500;
+    color: black;
+    font-weight: 500;
 }
 
 .title {
     font-family: 'Cormorant Garamond', serif;
     font-size: x-large;
-    font-weight:700;
+    font-weight: 700;
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .button-container {
-    display:flex;
-    gap:10px
+    display: flex;
+    gap: 10px
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin:0;
 }
