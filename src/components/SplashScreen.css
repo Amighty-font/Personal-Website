@@ -1,6 +1,11 @@
 
 .letter {
     display:inline-block;
+    font-size: xx-large;
+}
+
+.font-link {
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .SplashContainer {
@@ -8,4 +13,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    white-space: pre;
 }

@@ -1,0 +1,13 @@
+.vertical-text {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}

@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import "./SplashScreen.css"
 
-const SplashScreen = ({isVisible}) => {
+const SplashScreen = ({ isVisible }) => {
     var name = "TIMOTHY FANG"
     var splash = []
 
@@ -14,19 +14,31 @@ const SplashScreen = ({isVisible}) => {
                     key={i}
                     initial={{ x: 20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    exit={{ opacity: 0, duration:time }}
-                    transition={{duration: time}}
+                    exit={{ opacity: 0, duration: time }}
+                    transition={{ duration: time }}
                 >
-                    {name[i]}
+                    <span class="font-link">
+                        {name[i]}
+                    </span>
                 </motion.div>)}
             </AnimatePresence>
         )
     }
 
     return (
-        <motion.div className="SplashContainer">
-            {splash}
-        </motion.div>
+        <div>
+            <AnimatePresence>
+            {isVisible && <motion.div 
+                className="SplashContainer"
+                key={1}
+                // initial={{ x: 0, opacity: 1 }}
+                // animate={{ x: 0, opacity: 1 
+                exit={{ opacity: 0, duration: 3 }}
+                >
+                {splash}
+            </motion.div>}
+            </AnimatePresence>
+        </div>
     )
 }
 

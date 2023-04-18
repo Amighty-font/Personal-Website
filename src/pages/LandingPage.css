@@ -1,0 +1,17 @@
+
+.big-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150px;
+    font-weight:700;
+    padding:0;
+    margin-bottom:0;
+}
+
+.medium-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 70px;
+    padding:0;
+    margin-bottom:0;
+}
