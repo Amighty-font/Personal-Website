@@ -1,6 +1,6 @@
 .vertical-text {
     position: fixed;
-    top: 50%;
+    top: calc(50% - 69px);
     left: 0;
     writing-mode: vertical-rl;
     text-orientation: mixed;

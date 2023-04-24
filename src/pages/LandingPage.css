@@ -2,9 +2,10 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 150px;
     font-weight: 700;
+    line-height: 100%;
     margin-bottom: 0px;
+    color: #cc6c48;
     margin: 0px;
-    padding-right:100px;
 }
 
 .medium-text {
@@ -13,26 +14,41 @@
     font-style: italic;
     font-size: 70px;
     margin: 0px;
-    padding-right:100px;
+    color: #cc6c48;
+}
+
+.image-text {
+    display: flex;
+
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.image-box {
+    z-index: 1;
+    width: 350px;
+    height: auto;
+    align-self: center;
 }
 
 .green-section {
-    background-color: #aabda0;
+    background-image: url("../Photos/primaryBackground.jpg");
+    background-size: cover;
+    background-position: center bottom;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     z-index: -1;
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .first-body {
-    padding-top: 100px;
+    padding-top: 115px;
+    padding-right: 200px;
 }
 
 .tan-section {
@@ -45,5 +61,5 @@
     position: relative;
     /* Set position to relative */
     top: calc(100vh - 69px);
-    z-index:-1;
+    z-index: -1;
 }
