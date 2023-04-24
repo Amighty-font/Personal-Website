@@ -19,7 +19,6 @@
 
 .image-text {
     display: flex;
-
     justify-content: center;
     margin-right: 100px;
 }
@@ -46,6 +45,27 @@
     padding: 0;
 }
 
+.first-line {
+    position:relative;
+}
+
+.link-box {
+    display:inline-block;
+    text-align: left;
+    position: absolute;
+    transform: translate(80px, 220%)
+}
+
+.link {
+    display: block;
+    min-width:100px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .first-body {
     padding-top: 115px;
     padding-right: 200px;
@@ -53,7 +73,6 @@
 
 .tan-section {
     background-color: #E4DDDA;
-    height: 3000px;
     /* Or any other desired height */
     display: flex;
     align-items: center;
@@ -62,4 +81,8 @@
     /* Set position to relative */
     top: calc(100vh - 69px);
     z-index: -1;
+}
+
+.second-body {
+    height:800px;
 }
